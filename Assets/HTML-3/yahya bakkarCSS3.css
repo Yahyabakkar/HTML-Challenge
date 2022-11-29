@@ -1,0 +1,163 @@
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 65%;
+    background-color: rgb(83, 86, 92);
+    color: white;
+  }
+  
+  .navbar .ul-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+  } 
+  
+  .navbar .li-nav {
+    float: left;
+    border-right: 1px solid #bbb;
+    line-height: 10px;
+    padding: 7px 50px 7px 50px;
+  }
+  
+  .ul-nav > .li-nav:last-child {
+    border: none;
+  }
+  
+  .navbar .li-nav .a-nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 15px;
+    margin: auto;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: lightblue;
+  }
+  
+  .img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  .side {
+    flex: 20%;
+  
+    padding: 20px;
+  }
+  
+  
+  .main {
+    flex: 80%;
+  
+    padding: 20px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: row;
+  }
+  .left {
+    flex: 50%;
+  
+    padding: 20px;
+    border-right: 1px solid gray;
+  }
+  .left > div {
+    width: 80%;
+  }
+  
+  .right {
+    flex: 50%;
+    padding: 20px;
+  }
+  .right > div {
+    width: 80%;
+  }
+  .menu-list > li {
+    margin-left: -20px;
+    padding: 3px;
+  }
+  
+  .hr-border {
+    border-bottom: 1px solid grey;
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(28, 28, 65);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  input[type="button"] {
+    background-color: rgb(28, 28, 65);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+  }
+  .image-container{
+    background-image: url("https://kinsta.com/wp-content/uploads/2021/07/how-to-become-a-web-developer.jpg");
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .image-container::before{
+    content: "";
+    position: absolute;
+top: 0;
+left: 0  ;
+height: 100%;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.281);
+  }
+
+ .credentials{  
+  position: absolute;
+  top: 0%;
+  left: 0%;
+margin: 10px 0 0 30px ;
+
+ }
+ .a-nav:hover{
+  color: #ccc;
+background: rgb(29, 14, 14); 
+}
