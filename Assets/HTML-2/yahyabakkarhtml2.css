@@ -1,0 +1,41 @@
+.header {
+    overflow: hidden;
+    background-color: burlywood;
+    padding: 20px 10px;
+  }
+  .header a {
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration:black;
+    font-size: 18px;
+  }
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .header a:hover {
+  background-color:coral;
+  color: black;
+}
+.header a.active {
+
+  color: black;
+}
+.header-right {
+  float: right;
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+  }
+  ul {
+    list-style: square inside url("sqpurple.gif");
+  }
+  ul li {
+    color:black;
+    margin: 5px;
+  } 
+
